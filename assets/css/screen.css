@@ -185,10 +185,55 @@ body{
     }
     #bottomrec{
         background-color: #D2BE98;
-        width: 99.45%;
+        width: 100%;
         height: 5%;
         position: absolute;
-        top: 214%
+        top: 214%;
+        left: 0%;
+    }
+    a{
+        color: black;
+    }
+    #access-title{
+        font-family: "Jura";
+        font-size: 55px;
+        position: absolute;
+        top: 20%;
+        left: 22%;
+    }
+    #contents{
+        font-size: 30px;
+        font-family: "Jura";
+        color: #f1f1f1;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 200px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .sidenav a {
+        padding: 20px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: "Jura";
+        color: #818181;
+        display: block;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
     }
 }
 @media only screen and (min-width: 1901px){
