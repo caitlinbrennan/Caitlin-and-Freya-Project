@@ -8,26 +8,125 @@
     </head>
     <body>
         <h2 id="semantic-title">Semantic HTML</h2>
+        <p>Semantic HTML helps screen readers and other assistive technologies understand the content and navigate it more effectively<br>By using these semantic HTML elements appropriately, you provide meaning and structure to your webpage, which benefits both users and assistive technologies like screen readers. This makes it easier for users to understand and navigate your content, improving accessibility and usability.</p>
+
         <h3>Heading</h3>
+        <div class="code-snippet">
         <pre>
             <code>
-            &lt;!DOCTYPE html&gt;<br>
-            &lt;html&gt;<br>
-            &lt;body&gt;<br>
-                <br>
-            &lt;h1&gt;Heading 1, the title/primary heading&lt;/h1&gt;<br>
-            &lt;h2&gt;Heading 2, major sections of content&lt;/h2&gt;<br>
-            &lt;h3&gt;Heading 3, subcategories/subtopics within a major section&lt;/h3&gt;<br>
-            &lt;h4&gt;Heading 4, a subsection under a main section&lt;/h4&gt;<br>
-            &lt;h5&gt;Heading 5, a subsection within a subsection&lt;/h5&gt;<br>
-            &lt;h6&gt;Heading 6, etc&lt;/h6&gt;<br>
-            <br>
-            &lt;/body&gt;<br>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Heading 1, the title/primary heading&lt;/h1&gt;
+                    &lt;h2&gt;Heading 2, major sections of content&lt;/h2&gt;
+                    &lt;h3&gt;Heading 3, subcategories/subtopics within a major section&lt;/h3&gt;
+                    &lt;h4&gt;Heading 4, a subsection under a main section&lt;/h4&gt;
+                    &lt;h5&gt;Heading 5, a subsection within a subsection&lt;/h5&gt;
+                    &lt;h6&gt;Heading 6, etc&lt;/h6&gt;
+                &lt;/body&gt;
             &lt;/html&gt;
         </code>
         </pre>
+        </div>
+        <p>&lt;header&gt; Represents the introductory content of the page, typically containing a logo, the website's name, and navigation links. Using &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc., to organize content hierarchically is crucial for creating a well-structured and meaningful document outline. Each heading level represents a different level of importance or hierarchy in the content.</p>
 
+        <h3>Navigation</h3>
+        <div class="code-snippet">
+        <pre>
+            <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;style&gt;
+                        nav {
+                            background-color: #333;
+                            padding: 10px 0;
+                        }<br>
+                        ul {
+                            list-style-type: none;
+                            padding: 0;
+                            margin: 0;
+                            text-align: center;
+                        }<br>
+                        li {
+                            display: inline;
+                            margin-right: 20px;
+                        }<br>
+                        a {
+                            color: #fff;
+                        }<br>
+                    &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;nav&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href="link here"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/nav&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+            </code>
+        </pre>
+        </div>
+        <p>&lt;nav&gt; Indicates a section of navigation links. By using the &lt;nav&gt; element, you provide semantic meaning to the navigation links, making it clear to both users and assistive technologies that these links are part of the website's navigation system. This enhances accessibility and helps users understand the purpose and function of the navigation section.</p>
 
+        <h3>Main and Section</h3>
+        <div class="code-snippet">
+        <pre>
+            <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;body&gt;
+                    &lt;main&gt;
+                        &lt;section&gt;
+                            &lt;h2&gt;About Us&lt;/h2&gt;
+                            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+                        &lt;/section&gt;
+                        &lt;section&gt;
+                            &lt;h2&gt;Contact Us&lt;/h2&gt;
+                            &lt;p&gt;Contact us at contact@example.com or call us at +1234567890.&lt;/p&gt;
+                        &lt;/section&gt;
+                    &lt;/main&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;  
+            </code>
+        </pre>
+        </div>
+        <p>&lt;main&gt; Contains the primary content of the webpage. While &lt;section&gt; Defines sections within the main content, each with a heading</p>
+        <p>In this example, the &lt;main&gt; element encloses two sections (&lt;section&gt; elements), each containing specific content related to the about and contact sections of the webpage. This indicates that these sections constitute the main content of the webpage.</p>
+
+        <h3>Footer</h3>
+        <div class="code-snippet">
+        <pre>
+            <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;style&gt;
+                        footer {
+                            background-color: #333;
+                            color: #fff;
+                            padding: 20px;
+                            text-align: center;
+                        }
+                    &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;footer&gt;
+                        &amp;copy; 2024 My Website
+                    &lt;/footer&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+            </code>
+        </pre>
+        </div>
+        <p>&lt;footer&gt; Contains footer information such as copyright notices or contact information. In this example, the &lt;footer&gt; element encloses a copyright information</p>
+
+        <footer>Copyright 2024</footer>
+        
         <script src = "assets/js/script.js"></script>
     </body>
 </html>
