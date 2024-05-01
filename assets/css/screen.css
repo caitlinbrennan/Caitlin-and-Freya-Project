@@ -654,12 +654,19 @@ body{
     #main {
         padding: 20px;
     }
+    #pour-title{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 50px;
+        position: absolute;
+        bottom: 5%;
+    }
     #pour{
         padding: 300px;
         font-family: "Jura";
         font-size: 40px;
         position: absolute;
-        top: 0%;
+        top: 5%;
     }
     #perceive{
         padding-left: 300px;
@@ -678,6 +685,63 @@ body{
     }
     mark{
         background-color: #e3d5ba;
+    }
+    #operable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 150%;
+        padding-right: 4%;
+    }
+    #operable-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 180%;
+        left: 25%;
+        padding-right: 4%;
+    }
+    #understandable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 245%;
+        padding-right: 4%;
+    }
+    #understandable-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 270%;
+        left: 25%;
+        padding-right: 4%;
+    }
+    #robust{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 330%;
+        padding-right: 4%;
+    }
+    #robust-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 355%;
+        left: 25%;
+        padding-right: 4%;
+    }
+
+    #compliance{
+        font-weight: lighter;
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        top: 400%;
     }
 }
 @media only screen and (min-width: 1901px){
