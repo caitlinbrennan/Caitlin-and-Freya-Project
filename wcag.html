@@ -10,17 +10,63 @@
         <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header id="webtitle">Web Education</header>
+        <header><a id="webtitle" href="index.html">Web Education</a></header>
 
         <div class="sidenav">
-            <a id="contents">Contents</a>
-            <a href="">Info #1</a>
-            <a href="">Info #2</a>
-            <a href="">Info #3</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input class="search" type="text" placeholder="Search.." name="search">
+                    <button class="button" type="submit"><i class="fa fa-search"><img src="assets/imgs/search-icon.png" alt="magnifying glass image"></i></button>
+                </form>
+            </div>
+            <a id="active" href="wcag.html">Web Content Accessibility Guidelines</a>
+            <a href="semantic.html">Semantic HTML</a>
+            <a href="accessibility.html">Accessibility</a>
         </div>
 
         <div id="main">
-            <h2 id="access-title">Web Content Accessibility Guidelines</h2>
+            <h2 id="wcag-title">Web Content Accessibility Guidelines</h2>
+            <h3 id="pour-title">P.O.U.R</h3>
+            <p id="pour">There are 4 different principles for Web Content Accessibility Guidelines, these are:</p>
+            <p id="perceive"><b>Perceivable:</b> All information and the interface must be properly presented to the users in a way that
+                is easily perceivable. Some key elements include:</p>
+            <p id="perceive-ex"> <mark>Alternate Text:</mark> This gives descriptions for images, graphics, controls, and other parts of the site
+                <br><br> <mark>Adaptable Content:</mark> This is when the site can be presented properly on various different
+                screen sizes without changing any content. <br><br> <mark>Distinguishable Content:</mark> This means that all information and 
+                items on the screen must be easily distinguishable from each other by every users, including those with colour
+                blindness and poor vision. <br><br> <mark>Content Structure:</mark> With this, you must ensure that proper HTML is used to 
+                show good hierarchy and structure in your site. <br><br> <mark>Captions/Transcripts:</mark> These must be used to
+                ensure that users who are dead or hard of hearing can understand what may be happening in video content on your site.
+            </p>
+            <br><br><br>
+            <p id="operable"><b>Operable:</b> Users should be able to easily navigate your site using various methods, for example using a keyboard.
+                There also should be no limit to the time the user can spend reading text / viewing images on the site, and it should be safe for
+                those with epilepsy or for those who are sensitive to flashing lights to use. Some key elements include:
+            </p>
+            <p id="operable-ex"> <mark>Keyboard Accessibility:</mark> The user should be able to navigate and use the site with a keyboard, there should
+                not be a requirement to use a mouse. This is especially important for those with lower mobility. <br><br> <mark>Input Assistance:</mark>
+                There should be clear labelling to show the user what to do when inputting data, and there should be clear error messages that are easily
+                to understand to prevent any confusion. <br><br> <mark>Focus on current items:</mark> It should be clearly obvious to the user which item/page/etc. that they are
+                on, this can be done by changing the colour, or by making the fonts bigger. <br><br> <mark>Physical Reactions:</mark> The user should not have to
+                worry about having physical reactions while using the site, this can be caused by flashing lights or fast/harsh flickering lights.
+            </p>
+            <p id="understandable"><b>Understandable:</b> The information in the user interface and the operation of it(way the user interacts with it)
+                must be easily understandable to the user. The content must be consistent, readable, and have clear instructions. Some key elements include:
+            </p>
+            <p id="understandable-ex"><mark>Clear Language:</mark> All language used must be to-the-point and easy for any user to understand. <br><br>
+                <mark>Consistency:</mark> There must be consistency in all aspects of the site including the typefaces used, the navigation patterns, and the colours.
+                <br><br> <mark>Error Messages:</mark> There must be clear instructions given to the user to assist with tasks, and there should also
+                be proper error messaging to show the user where they have gone wrong. <br><br> <mark>Predictability: </mark> There should be predictable patterns to
+                the interactivity of the site, this means that the user will have a more consistent experience overall.
+            </p>
+            <p id="robust"><b>Robust:</b> The site should be properly developed to be interpreted efficiently by many types of user agents, this includes assistive
+                technologies. It must be compatible across all user agents, and must stay consistent through them all. Some key elements include:
+            </p>
+            <p id="robust-ex"><mark>Compatiblity:</mark> All content in the site must be compatible with all new and old versions assistive technologies. <br><br>
+                <mark>Semantic HTML:</mark> Semantic HTML must be used to ensure that the site is well structured.
+            </p>
+
+            <h3 id="compliance">Compliance Level</h3>
         </div>
 
         <script src = "assets/js/script.js"></script>

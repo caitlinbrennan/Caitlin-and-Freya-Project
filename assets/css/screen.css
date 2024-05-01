@@ -1,6 +1,5 @@
 .jura-uniquifier {
     font-family: "Jura", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -25,36 +24,414 @@ footer{
     margin-left: 200px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 640px){
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 17%;
+        top: 12%;
+    }
+    .button-home{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 5%;
+        cursor: pointer;
+    }
+    .search-home{
+        display: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
     #webtitle{
+        font-size: 20px;
+        font-family: "Jura";
+        position: absolute;
+        left: 35%;
+    }
+    #sub_title{
         font-size: 30px;
         font-family: "Jura";
         position: absolute;
-        left: 27%;
-    }
-    #sub_title{
-        font-size: 50px;
-        font-family: "Jura";
-        position: absolute;
         top: 15%;
+        left: 1%;
         text-align: center;
         font-weight: lighter;
     }
+    #describe{
+        font-size: 18px;
+        position: absolute;
+        top: 37%;
+        left: 5%;
+        text-align: center;
+        font-family: "Jura";
+    }
+    #clickhere{
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+        left: 9%;
+        margin-right: 4%;
+        text-align: center;
+        font-family: "Jura";
+        background-color: #D2BE98;
+        padding: 1%;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    #clickhere:hover{
+        background-color: #ac9b7c;
+    }
+    #wcag{
+        position: absolute;
+        top: 105%;
+        font-family: "Jura";
+        font-size: 20px;
+        text-align: center;
+        left: 10%;
+    }
+    #view{
+        display: none;
+    }
+    #wcagrec{
+        background-color: #98D2B6;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 100%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semanticrec{
+        background-color: #D29898;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 129%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semantic{
+        position: absolute;
+        top: 135%;
+        font-size: 25px;
+        font-family: "Jura";
+        left: 20%;
+        text-align: center;
+    }
+    #viewsemantic{
+        display: none;
+    }
+    #accessrec{
+        background-color: #98BDD2;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 157%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #access{
+        font-size: 30px;
+        font-family: "Jura";
+        position: absolute;
+        top: 162%;
+        left: 20%;
+    }
+    #viewaccess{
+        display: none;
+    }
+    #bottom{
+        position: absolute;
+        top: 185%;
+        font-family: "Jura";
+        font-size: 18px;
+        left: 20%;
+    }
+    #bottomrec{
+        background-color: #D2BE98;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 184%;
+        left: 0%;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 640px){
+    img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 17%;
+        top: 12%;
+    }
+    .button-home{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 5%;
+        cursor: pointer;
+    }
+    .search-home{
+        display: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    #webtitle{
+        font-size: 25px;
+        font-family: "Jura";
+        position: absolute;
+        left: 30%;
+    }
+    #sub_title{
+        font-size: 40px;
+        font-family: "Jura";
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        text-align: center;
+        font-weight: lighter;
+    }
+    #describe{
+        font-size: 25px;
+        position: absolute;
+        top: 39%;
+        left: 10%;
+        text-align: center;
+        font-family: "Jura";
+    }
+    #clickhere{
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        margin-right: 4%;
+        text-align: center;
+        font-family: "Jura";
+        background-color: #D2BE98;
+        padding: 1%;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    #clickhere:hover{
+        background-color: #ac9b7c;
+    }
+    #wcag{
+        position: absolute;
+        top: 100%;
+        font-family: "Jura";
+        font-size: 30px;
+        text-align: center;
+        margin-right: 2%;
+    }
+    #view{
+        display: none;
+    }
+    #wcagrec{
+        background-color: #98D2B6;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 100%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semanticrec{
+        background-color: #D29898;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 129%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semantic{
+        position: absolute;
+        top: 132.5%;
+        font-size: 35px;
+        font-family: "Jura";
+        left: 11.7%;
+        text-align: center;
+    }
+    #viewsemantic{
+        display: none;
+    }
+    #accessrec{
+        background-color: #98BDD2;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 157%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #access{
+        font-size: 35px;
+        font-family: "Jura";
+        position: absolute;
+        top: 161%;
+        left: 17.5%;
+    }
+    #viewaccess{
+        display: none;
+    }
+    #bottom{
+        position: absolute;
+        top: 185%;
+        font-family: "Jura";
+        font-size: 18px;
+        left: 23%;
+    }
+    #bottomrec{
+        background-color: #D2BE98;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 184%;
+        left: 0%;
+    }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px){
+    img{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 15%;
+        top: 15%;
+    }
+    .button-home{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        left: 5%;
+        top: 3%;
+        cursor: pointer;
+    }
+    .search-home{
+        display: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
     #webtitle{
         font-size: 40px;
         font-family: "Jura";
         position: absolute;
-        left: 32%;
+        margin-left: 28%;
+        top: 3%;
     }
     #sub_title{
-        font-size: 80px;
+        font-size: 60px;
         font-family: "Jura";
         position: absolute;
         top: 15%;
+        left: 1%;
         text-align: center;
         font-weight: lighter;
+    }
+    #describe{
+        font-size: 30px;
+        position: absolute;
+        top: 55%;
+        left: 8%;
+        text-align: center;
+        font-family: "Jura";
+    }
+    #clickhere{
+        font-size: 35px;
+        position: absolute;
+        top: 70%;
+        left: 17%;
+        margin-right: 4%;
+        text-align: center;
+        font-family: "Jura";
+        background-color: #D2BE98;
+        padding: 1%;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    #clickhere:hover{
+        background-color: #ac9b7c;
+    }
+    #wcag{
+        position: absolute;
+        top: 102.5%;
+        font-family: "Jura";
+        font-size: 30px;
+        text-align: center;
+        left: 18%;
+    }
+    #view{
+        display: none;
+    }
+    #wcagrec{
+        background-color: #98D2B6;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 100%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semanticrec{
+        background-color: #D29898;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 129%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #semantic{
+        position: absolute;
+        top: 132.5%;
+        font-size: 35px;
+        font-family: "Jura";
+        left: 27.7%;
+        text-align: center;
+    }
+    #viewsemantic{
+        display: none;
+    }
+    #accessrec{
+        background-color: #98BDD2;
+        width: 85%;
+        height: 23%;
+        position: absolute;
+        top: 157%;
+        left: 7.5%;
+        border-radius: 40px;
+    }
+    #access{
+        font-size: 35px;
+        font-family: "Jura";
+        position: absolute;
+        top: 161%;
+        left: 30.5%;
+    }
+    #viewaccess{
+        display: none;
+    }
+    #bottom{
+        position: absolute;
+        top: 185%;
+        font-family: "Jura";
+        font-size: 18px;
+        left: 35%;
+    }
+    #bottomrec{
+        background-color: #D2BE98;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        top: 184%;
+        left: 0%;
     }
 }
 @media only screen and (min-width: 1008px) and (max-width: 1300px){
@@ -75,11 +452,55 @@ footer{
     }
 }
 @media only screen and (min-width: 1301px) and (max-width: 1900px){
+    .search-container-home {
+        border: none;
+        position: absolute;
+        left: 1%;
+        top: 3%;
+    }
+    .search-home{
+        font-size: 25px;
+        font-family: "Jura";
+    }
+    .search{
+        font-size: 20px;
+        font-family: "Jura";
+        width: 70%;
+    }
+    img{
+        width: 35%;
+        height: 60%;
+        position: absolute;
+        left: 30%;
+        top: 20%;
+    }
+    .button{
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        left: 75%;
+        cursor: pointer;
+    }
+    .button-home{
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        left: 102%;
+        cursor: pointer;
+    }
+    .search-container{
+        border: none;
+        position: absolute;
+        left: 5%;
+        font-size: 17px;
+    }
+    
     #webtitle{
         font-size: 50px;
         font-family: "Jura";
         position: absolute;
         left: 39%;
+        text-decoration: none;
     }
     #sub_title{
         font-size: 100px;
@@ -210,77 +631,206 @@ footer{
     }
     a{
         color: black;
+        text-decoration: none;
     }
-    #access-title{
+    #wcag-title{
         font-family: "Jura";
         font-size: 55px;
         position: absolute;
         top: 20%;
         left: 22%;
     }
-    #contents{
-        font-size: 30px;
-        font-family: "Jura";
-        color: #f1f1f1;
-        padding-top: 150px;
-        padding-bottom: 20px;
-    }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 200px; /* 0 width - change this with JavaScript */
+        width: 250px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
         top: 0; /* Stay at the top */
         left: 0;
-        background-color: #111; /* Black*/
+        background-color: #D2BE98; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
     .sidenav a {
-        padding: 20px 8px 8px 32px;
+        padding: 100px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
         font-family: "Jura";
-        color: #818181;
+        color: #ffffff;
         display: block;
     }
     .sidenav a:hover {
         color: #f1f1f1;
     }
+    #active {
+        color: #ffffff;
+        text-decoration: underline;
+        font-size: 30px;
+    }
     #main {
-        transition: margin-left .5s;
         padding: 20px;
+    }
+    #pour-title{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 50px;
+        position: absolute;
+        bottom: 5%;
+    }
+    #pour{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        top: 5%;
+    }
+    #perceive{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 62%;
+    }
+    #perceive-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 77%;
+        left: 25%;
+        padding-right: 4%;
+    }
+    mark{
+        background-color: #e3d5ba;
+    }
+    #operable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 150%;
+        padding-right: 4%;
+    }
+    #operable-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 180%;
+        left: 25%;
+        padding-right: 4%;
+    }
+    #understandable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 245%;
+        padding-right: 4%;
+    }
+    #understandable-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 270%;
+        left: 25%;
+        padding-right: 4%;
+    }
+    #robust{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 330%;
+        padding-right: 4%;
+    }
+    #robust-ex{
+        font-family: "Jura";
+        font-size: 25px;
+        position: absolute;
+        top: 355%;
+        left: 25%;
+        padding-right: 4%;
+    }
+
+    #compliance{
+        font-weight: lighter;
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        top: 400%;
     }
 }
 @media only screen and (min-width: 1901px){
+    .search-container-home {
+        border: none;
+        position: absolute;
+        left: 1%;
+        top: 2%;
+    }
+    .search-home{
+        font-size: 30px;
+        font-family: "Jura";
+    }
+    .search{
+        font-size: 20px;
+        font-family: "Jura";
+        width: 70%;
+    }
+    img{
+        width: 35%;
+        height: 60%;
+        position: absolute;
+        left: 30%;
+        top: 20%;
+    }
+    .button{
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        left: 75%;
+        cursor: pointer;
+    }
+    .button-home{
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        left: 102%;
+        cursor: pointer;
+    }
+    .search-container{
+        border: none;
+        position: absolute;
+        left: 5%;
+        font-size: 17px;
+    }
     #webtitle{
-        font-size: 50px;
+        font-size: 65px;
         font-family: "Jura";
         position: absolute;
-        left: 39%;
+        left: 40%;
     }
     #sub_title{
-        font-size: 110px;
+        font-size: 130px;
         font-family: "Jura";
         position: absolute;
-        left: 10%;
+        left: 4%;
         top: 10%;
         text-align: center;
         font-weight: lighter;
     }
     #describe{
-        font-size: 70px;
+        font-size: 75px;
         position: absolute;
         top: 40%;
         left: 17.5%;
         font-family: "Jura";
     }
     #clickhere{
-        font-size: 70px;
+        font-size: 90px;
         position: absolute;
         top: 60%;
-        left: 27%;
+        left: 23%;
         font-family: "Jura";
         background-color: #D2BE98;
         padding: 1%;
@@ -292,7 +842,7 @@ footer{
     }
     #wcag{
         position: absolute;
-        top: 116.5%;
+        top: 123.5%;
         font-family: "Jura";
         font-size: 70px;
         text-align: center;
@@ -300,8 +850,8 @@ footer{
     }
     #view{
         position: absolute;
-        top: 121%;
-        left: 78%;
+        top: 128.5%;
+        left: 75%;
         font-size: 55px;
         font-family: "Jura";
         text-decoration: underline;
@@ -313,10 +863,148 @@ footer{
     #wcagrec{
         background-color: #98D2B6;
         width: 95%;
-        height: 17%;
+        height: 23%;
         position: absolute;
-        top: 120%;
+        top: 125%;
         left: 2%;
         border-radius: 40px;
+    }
+    #semanticrec{
+        background-color: #D29898;
+        width: 95%;
+        height: 23%;
+        position: absolute;
+        top: 155%;
+        left: 2%;
+        border-radius: 40px;
+    }
+    #semantic{
+        position: absolute;
+        top: 155.5%;
+        font-size: 80px;
+        font-family: "Jura";
+        left: 61%;
+    }
+    #viewsemantic{
+        position: absolute;
+        top: 158.5%;
+        left: 8%;
+        font-size: 55px;
+        font-family: "Jura";
+        text-decoration: underline;
+    }
+    #viewsemantic:hover{
+        cursor: pointer;
+        color: #785656;
+    }
+    #accessrec{
+        background-color: #98BDD2;
+        width: 95%;
+        height: 23%;
+        position: absolute;
+        top: 187%;
+        left: 2%;
+        border-radius: 40px;
+    }
+    #access{
+        font-size: 80px;
+        font-family: "Jura";
+        position: absolute;
+        top: 187.5%;
+        left: 5%;
+    }
+    #viewaccess{
+        font-size: 55px;
+        font-family: "Jura";
+        position: absolute;
+        top: 190.5%;
+        left: 75%;
+        text-decoration: underline;
+    }
+
+    #bottom{
+        position: absolute;
+        top: 214.7%;
+        font-family: "Jura";
+        font-size: 40px;
+        left: 40%;
+    }
+    #bottomrec{
+        background-color: #D2BE98;
+        width: 100%;
+        height: 5.5%;
+        position: absolute;
+        top: 214%;
+        left: 0%;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    #wcag-title{
+        font-family: "Jura";
+        font-size: 70px;
+        position: absolute;
+        top: 15%;
+        left: 22%;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 250px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #D2BE98; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .sidenav a {
+        padding: 80px 8px 8px 32px;
+        margin-top: 50%;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: "Jura";
+        color: #ffffff;
+        display: block;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    #active {
+        color: #ffffff;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+    #main {
+        padding: 20px;
+    }
+    #pour{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 50px;
+        position: absolute;
+        left: 3%;
+    }
+    #perceive{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 3%;
+    }
+    #perceive-ex{
+        font-family: "Jura";
+        font-size: 35px;
+        position: absolute;
+        top: 57%;
+        left: 22%;
+        padding-right: 6%;
+    }
+    mark{
+        background-color: #e3d5ba;
     }
 }
