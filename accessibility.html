@@ -5,11 +5,93 @@
         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
         <title>Group Project</title>
         <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
-        <h2 id="access-title">Accessibility</h2>
+        <header><a id="webtitle" href="index.html">Web Education</a></header>
         
+        <div class="sidenav">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input class="search" type="text" placeholder="Search.." name="search">
+                    <button class="button" type="submit"><i class="fa fa-search"><img src="assets/imgs/search-icon.png" alt="magnifying glass image"></i></button>
+                </form>
+            </div>
+            <a href="wcag.html">Web Content Accessibility Guidelines</a>
+            <a href="semantic.html">Semantic HTML</a>
+            <a href="accessibility.html">Accessibility</a>
+        </div>
+    <div class="content-text">
+        <h2 id="accessibility-title">Accessibility</h2>
+        <p>Accessibility in coding refers to the practice of making software, websites, and digital content usable by people with disabilities. This involves designing and developing with consideration for various impairments such as visual, auditory, motor, and cognitive disabilities.</p>
+        <div class="content-container">
+            <div class="content-item content0"><h3>Colour Contrast</h3><p>Click on the underlined text to show explanation</p></div>
+            <div class="content-item content1">
+            <p id="good-toggle">Good Colour Contrast</p>
+            <div id="good1"><p id="good-contrast">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
+            <div id="good2"><p id="good-contrast">In this example, the text (white) is displayed on a dark blue background. The contrast between the white text and the dark blue background is strong, making the text highly readable.</p></div>
+            
+            </div>
+            <div class="content-item content3">
+            <p id="bad-toggle">Bad Colour Contrast</p>
+            <div id="bad1"><p id="bad-contrast">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
+            <div id="bad2"><p id="bad-contrast">In this example, the text (light gray) is displayed on a light yellow background. The contrast between the text and the background is poor, making the text difficult to read, especially for users with visual impairments or in less than ideal viewing conditions.</p></div>
+            
+            </div>
+            <div class="content-item content2"><p>Ensure that text and interactive elements have sufficient colour contrast against their background to be easily readable for users with low vision or colour blindness. WCAG provides specific guidelines for colour contrast ratios that should be met.</p><p>In summary, good color contrast ensures that text is easily readable and accessible to all users, while poor color contrast can hinder readability and accessibility. It's important for web developers to choose colors with sufficient contrast to ensure that their content is accessible to all users.</p></div>
+        </div>
+        <div class="content-container">
+            <div class="content-item content0"><h3>image labelling</h3></div>
+            <div class="content-item content1 code-snippet">
+            <pre>
+            <code>
+            
+            </code>
+            </pre>
+            </div>
+            <div class="content-item content2"><p>Provide descriptive text alternatives (alt attributes) for all images on your site. This ensures that users who cannot see the images can still understand their content and purpose. Additionally, consider using the longdesc attribute or providing detailed descriptions in nearby text for complex images.
+            </p></div>
+        </div>
+        <div class="content-container">
+            <div class="content-item content0"><h3>Keyboard Accessibility</h3></div>
+            <div class="content-item content1 code-snippet">
+            <pre>
+            <code>
+            
+            </code>
+            </pre>
+            </div>
+            <div class="content-item content2"><p>Make sure that all interactive elements on your site, such as links, buttons, and form controls, are fully accessible via keyboard navigation. Test your site using only the keyboard to ensure that users can navigate through all interactive elements in a logical order.</p></div>
+        </div>
+        <div class="content-container">
+            <div class="content-item content0"><h3>Multimedia</h3></div>
+            <div class="content-item content1 code-snippet">
+            <pre>
+            <code>
+            
+            </code>
+            </pre>
+            </div>
+            <div class="content-item content2"><p>Provide captions, transcripts, or audio descriptions for multimedia content such as videos and audio files. This ensures that users who are deaf, hard of hearing, or visually impaired can access the content.</p></div>
+        </div>
+        <div class="content-container">
+            <div class="content-item content0"><h3>Aria Landmark</h3></div>
+            <div class="content-item content1 code-snippet">
+            <pre>
+            <code>
+            
+            </code>
+            </pre>
+            </div>
+            <div class="content-item content2"><p>Use ARIA (Accessible Rich Internet Applications) landmarks and roles to enhance the accessibility of your site's structure and functionality. ARIA landmarks such as role="navigation", role="main", role="search", etc., help screen readers and other assistive technologies navigate your site more efficiently.</p></div>
+        </div>
 
+
+        <footer>Copyright 2024</footer>
+    </div>
         <script src = "assets/js/script.js"></script>
     </body>
 </html>

@@ -12,3 +12,17 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    $(document).ready(function(){
+    $("#good-toggle").click(function(){
+      $("#good1").toggle();
+      $("#good2").toggle();
+    });});
+
+    $(document).ready(function(){
+    $("#bad-toggle").click(function(){
+      $("#bad1").toggle();
+      $("#bad2").toggle();
+    });});
+});
