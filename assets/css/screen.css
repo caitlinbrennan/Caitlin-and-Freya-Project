@@ -631,7 +631,8 @@ footer{
 
     #bottom{
         position: absolute;
-        top: 215%;
+        top: 200%;
+        height: 1px;
         font-family: "Jura";
         font-size: 20px;
         left: 45%;
@@ -639,9 +640,9 @@ footer{
     #bottomrec{
         background-color: #D2BE98;
         width: 100%;
-        height: 5%;
+        height: 7%;
         position: absolute;
-        top: 214%;
+        top: 213%;
         left: 0%;
     }
     a{
@@ -650,10 +651,10 @@ footer{
     }
     #wcag-title{
         font-family: "Jura";
-        font-size: 55px;
+        font-size: 40px;
         position: absolute;
-        top: 20%;
-        left: 22%;
+        top: 10.5%;
+        left: 18.5%;
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
@@ -689,31 +690,36 @@ footer{
     #pour-title{
         padding: 300px;
         font-family: "Jura";
-        font-size: 50px;
+        font-size: 30px;
         position: absolute;
-        bottom: 5%;
+        bottom: 25%;
+        text-decoration: underline;
+        left: 0%;
+        font-weight: light;
     }
     #pour{
         padding: 300px;
         font-family: "Jura";
-        font-size: 40px;
+        font-size: 20px;
         position: absolute;
-        top: 5%;
+        bottom: 20%;
+        left: 0%;
     }
     #perceive{
         padding-left: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 18px;
         position: absolute;
-        top: 62%;
+        top: 38%;
+        left: 0%;
+        margin-right: 2%;
     }
     #perceive-ex{
         font-family: "Jura";
-        font-size: 25px;
         position: absolute;
-        top: 77%;
-        left: 25%;
-        padding-right: 4%;
+        top: 47%;
+        left: 22%;
+        margin-right: 2%;
     }
     mark{
         background-color: #e3d5ba;
@@ -721,59 +727,90 @@ footer{
     #operable{
         padding-left: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 18px;
         position: absolute;
-        top: 150%;
-        padding-right: 4%;
+        top: 85%;
+        left: 0%;
+        margin-right: 2%;
     }
     #operable-ex{
         font-family: "Jura";
-        font-size: 25px;
         position: absolute;
-        top: 180%;
-        left: 25%;
-        padding-right: 4%;
+        top: 97%;
+        left: 22%;
+        margin-right: 2%;
     }
     #understandable{
         padding-left: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 18px;
         position: absolute;
-        top: 245%;
-        padding-right: 4%;
+        top: 135%;
+        left: 0%;
+        margin-right: 2%;
     }
     #understandable-ex{
         font-family: "Jura";
-        font-size: 25px;
         position: absolute;
-        top: 270%;
-        left: 25%;
-        padding-right: 4%;
+        top: 145%;
+        left: 22%;
+        margin-right: 2%;
     }
     #robust{
         padding-left: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 18px;
         position: absolute;
-        top: 330%;
-        padding-right: 4%;
+        top: 180%;
+        left: 0%;
+        margin-right: 2%;
     }
     #robust-ex{
         font-family: "Jura";
-        font-size: 25px;
         position: absolute;
-        top: 355%;
-        left: 25%;
-        padding-right: 4%;
+        top: 190%;
+        left: 22%;
+        margin-right: 2%;
     }
 
-    #compliance{
-        font-weight: lighter;
+    #compliance-title{
         padding: 300px;
         font-family: "Jura";
-        font-size: 40px;
+        font-size: 30px;
         position: absolute;
-        top: 400%;
+        top: 170%;
+        text-decoration: underline;
+        left: 0%;
+        font-weight: light;
+    }
+    #compliance{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 20px;
+        position: absolute;
+        top: 178%;
+        left: 0%;
+    }
+    #level-a{
+        font-family: "Jura";
+        position: absolute;
+        top: 230%;
+        left: 22%;
+        margin-right: 2%;
+    }
+    #level-aa{
+        font-family: "Jura";
+        position: absolute;
+        top: 237%;
+        left: 22%;
+        margin-right: 2%;
+    }
+    #level-aaa{
+        font-family: "Jura";
+        position: absolute;
+        top: 244%;
+        left: 22%;
+        margin-right: 2%;
     }
 }
 @media only screen and (min-width: 1901px){
