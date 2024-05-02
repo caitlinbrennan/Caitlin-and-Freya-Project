@@ -6,14 +6,14 @@
 body{
     background-color: white;
 }
-/*footer{
+footer{
     text-align: center;
     font-family: "Jura";
     font-size: 20px;
-    background-color: #D2BE98;      was moving header with it??
+    background-color: #D2BE98;
     margin-top: 100px;
     padding: 0.7% 1.5%;
-}*/
+}
 
 .code-snippet{
     background-color: #D2BE98;
@@ -628,18 +628,19 @@ body{
 
     #bottom{
         position: absolute;
-        top: 215%;
+        top: 198%;
         font-family: "Jura";
         font-size: 20px;
-        left: 42%;
-    }
-    #bottomrec{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 7%;
-        position: absolute;
-        top: 213%;
         left: 0%;
+        width: 97%;
+    }
+    #bottom-wcag{
+        position: absolute;
+        top: 250%;
+        font-family: "Jura";
+        font-size: 20px;
+        left: 0%;
+        width: 97%;
     }
     a{
         color: black;
@@ -800,7 +801,7 @@ body{
         font-size: 65px;
         font-family: "Jura";
         position: absolute;
-        left: 40%;
+        left: 38%;
     }
     #sub_title{
         font-size: 130px;
@@ -916,33 +917,19 @@ body{
 
     #bottom{
         position: absolute;
-        top: 214.7%;
+        top: 205%;
         font-family: "Jura";
         font-size: 40px;
-        left: 40%;
-    }
-    #bottomrec{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 5.5%;
-        position: absolute;
-        top: 214%;
         left: 0%;
+        width: 97%;
     }
     #bottom-wcag{
         position: absolute;
-        top: 220.5%;
+        top: 220%;
         font-family: "Jura";
         font-size: 40px;
-        left: 40%;
-    }
-    #bottomrec-wcag{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 5.5%;
-        position: absolute;
-        top: 220%;
         left: 0%;
+        width: 97%;
     }
     a{
         color: black;
