@@ -6,14 +6,14 @@
 body{
     background-color: white;
 }
-footer{
+/*footer{
     text-align: center;
     font-family: "Jura";
     font-size: 20px;
-    background-color: #D2BE98;
+    background-color: #D2BE98;      was moving header with it??
     margin-top: 100px;
     padding: 0.7% 1.5%;
-}
+}*/
 
 .code-snippet{
     background-color: #D2BE98;
@@ -41,18 +41,20 @@ footer{
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
     img{
-        width: 20px;
+        display: none;
+        /*width: 20px;
         height: 20px;
         position: absolute;
         left: 17%;
-        top: 12%;
+        top: 12%;*/
     }
     .button-home{
-        position: absolute;
+        /*position: absolute;
         height: 30px;
         width: 30px;
         left: 5%;
-        cursor: pointer;
+        cursor: pointer;*/
+        display: none;
     }
     .search-home{
         display: none;
@@ -65,7 +67,7 @@ footer{
         font-size: 20px;
         font-family: "Jura";
         position: absolute;
-        left: 35%;
+        left: 30%;
     }
     #sub_title{
         font-size: 30px;
@@ -80,7 +82,7 @@ footer{
         font-size: 18px;
         position: absolute;
         top: 37%;
-        left: 5%;
+        left: 8%;
         text-align: center;
         font-family: "Jura";
     }
@@ -88,7 +90,7 @@ footer{
         font-size: 25px;
         position: absolute;
         top: 60%;
-        left: 9%;
+        left: 10%;
         margin-right: 4%;
         text-align: center;
         font-family: "Jura";
@@ -106,7 +108,7 @@ footer{
         font-family: "Jura";
         font-size: 20px;
         text-align: center;
-        left: 10%;
+        left: 12.5%;
     }
     #view{
         display: none;
@@ -134,7 +136,7 @@ footer{
         top: 135%;
         font-size: 25px;
         font-family: "Jura";
-        left: 20%;
+        left: 21.5%;
         text-align: center;
     }
     #viewsemantic{
@@ -154,17 +156,18 @@ footer{
         font-family: "Jura";
         position: absolute;
         top: 162%;
-        left: 20%;
+        left: 21%;
     }
     #viewaccess{
         display: none;
     }
     #bottom{
         position: absolute;
-        top: 185%;
+        top: 184.5%;
+        height: 2%;
         font-family: "Jura";
         font-size: 18px;
-        left: 20%;
+        left: 25%;
     }
     #bottomrec{
         background-color: #D2BE98;
@@ -173,6 +176,44 @@ footer{
         position: absolute;
         top: 184%;
         left: 0%;
+    }
+
+    .topnav 
+    {
+        display: block;
+        background-color: #D2BE98;
+        position: relative;
+    }
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    .topnav a 
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+        font-family: "Montserrat";
+        cursor: auto;
+    }
+    .topnav a.icon 
+    {
+        background: #D2BE98;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 20px;
+        width: 15px;
+        cursor: pointer;
+    }
+    #myLinks a:hover 
+    {
+        background-color: #ac9b7c;
+        color: white;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 401px) and (max-width: 640px){
@@ -468,46 +509,53 @@ footer{
 }
 @media only screen and (min-width: 1301px) and (max-width: 1900px){
     .search-container-home {
-        border: none;
+        display: none;
+        /*border: none;
         position: absolute;
         left: 1%;
-        top: 3%;
+        top: 3%;*/
     }
     .search-home{
-        font-size: 25px;
-        font-family: "Jura";
+        display: none;
+        /*font-size: 25px;
+        font-family: "Jura";*/
     }
     .search{
-        font-size: 20px;
+        display: none;
+        /*font-size: 20px;
         font-family: "Jura";
-        width: 70%;
+        width: 70%;*/
     }
     img{
-        width: 35%;
+        display: none;
+        /*width: 35%;
         height: 60%;
         position: absolute;
         left: 30%;
-        top: 20%;
+        top: 20%;*/
     }
     .button{
-        position: absolute;
+        display: none;
+        /*position: absolute;
         height: 100%;
         width: 20%;
         left: 75%;
-        cursor: pointer;
+        cursor: pointer;*/
     }
     .button-home{
-        position: absolute;
+        display: none;
+        /*position: absolute;
         height: 100%;
         width: 20%;
         left: 102%;
-        cursor: pointer;
+        cursor: pointer;*/
     }
     .search-container{
-        border: none;
+        display: none;
+        /*order: none;
         position: absolute;
         left: 5%;
-        font-size: 17px;
+        font-size: 17px;*/
     }
     
     #webtitle{
@@ -631,11 +679,10 @@ footer{
 
     #bottom{
         position: absolute;
-        top: 200%;
-        height: 1px;
+        top: 215%;
         font-family: "Jura";
         font-size: 20px;
-        left: 45%;
+        left: 42%;
     }
     #bottomrec{
         background-color: #D2BE98;
