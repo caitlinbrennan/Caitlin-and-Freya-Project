@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header><a id="webtitle" href="index.html">Web Education</a></header>
@@ -18,7 +19,18 @@
             <a href="semantic.html">Semantic HTML</a>
             <a id="active" href="accessibility.html">Accessibility</a>
         </div>
-    <div class="content-text">
+        <div class="topnav">
+            <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a class="active" href="wcag.html">Web Content Accessibility Guidelines</a>
+            <a href="semantic.html">Semantic HTML</a>
+            <a href="accessibility.html">Accessibility</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="content-text">
         <h2 id="accessibility-title">Accessibility</h2>
         <p>Accessibility in coding refers to the practice of making software, websites, and digital content usable by people with disabilities. This involves designing and developing with consideration for various impairments such as visual, auditory, motor, and cognitive disabilities.</p>
         <div class="content-container">

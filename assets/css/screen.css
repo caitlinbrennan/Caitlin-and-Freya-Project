@@ -223,12 +223,12 @@ footer{
     .sidenav{
         display: none;
     }
-    /*#myLinks a:hover 
+    #myLinks a:hover 
     {
         background-color: #ac9b7c;
         color: white;
         cursor: pointer;
-    }*/
+    }
     #wcag-title{
         font-family: "Jura";
         font-size: 20px;
@@ -351,10 +351,12 @@ footer{
     {
         display: block;
         background-color: #D2BE98;
-        position: absolute;
+        position: relative;
         right: 2%;
+        left: 2%;
         width: 96.5%;
         top: 1%;
+        text-align: center;
     }
     .topnav #myLinks 
     {
@@ -368,7 +370,7 @@ footer{
         font-size: 15px;
         display: block;
         font-family: "Jura";
-        cursor: auto;
+        cursor: pointer;
     }
     .topnav a.icon 
     {
@@ -378,9 +380,6 @@ footer{
         right: 0;
         top: 0;
         cursor: pointer;
-    }
-    .topofmenu{
-        background-color: #D2BE98;
     }
     .active {
         text-decoration: underline;
@@ -523,6 +522,49 @@ footer{
         grid-column: 1;
         grid-row: 3;
     }
+    .sidenav{
+        display: none;
+    }
+    .topnav 
+    {
+        display: block;
+        background-color: #D2BE98;
+        position: relative;
+        right: 2%;
+        left: 2%;
+        width: 96.5%;
+        top: 1%;
+        text-align: center;
+    }
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    .topnav a 
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        font-family: "Jura";
+        cursor: pointer;
+    }
+    .topnav a.icon 
+    {
+        background: #D2BE98;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    #myLinks a:hover 
+    {
+        background-color: #ac9b7c;
+        color: white;
+        cursor: pointer;
+    }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px){
     a{
@@ -654,6 +696,50 @@ footer{
         grid-column: 1;
         grid-row: 3;
     }
+    .sidenav{
+        display: none;
+    }
+    .topnav 
+    {
+        display: block;
+        background-color: #D2BE98;
+        position: relative;
+        right: 2%;
+        left: 2%;
+        width: 96.5%;
+        top: 1%;
+        text-align: center;
+    }
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    .topnav a 
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        font-family: "Jura";
+        cursor: pointer;
+    }
+    .topnav a.icon 
+    {
+        background: #D2BE98;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    #myLinks a:hover 
+    {
+        background-color: #ac9b7c;
+        color: white;
+        cursor: pointer;
+    }
+    
 }
 @media only screen and (min-width: 1008px) and (max-width: 1300px){
     .topnav{
@@ -975,7 +1061,7 @@ footer{
     } 
 
     .content-text{
-        margin-left: 0px;
+        margin-left: 150px;
         position: absolute;
     }
 }
