@@ -566,10 +566,16 @@ footer{
         font-size: 35px;
         font-family: "Jura";
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
     }
     #view:hover{
         color: #4b6458;
         cursor: pointer;
+        position: absolute;
+        top: 125%;
+        left: 77%;
+        font-size: 40px;
     }
     #wcagrec{
         background-color: #98D2B6;
@@ -603,10 +609,16 @@ footer{
         font-size: 35px;
         font-family: "Jura";
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
     }
     #viewsemantic:hover{
         cursor: pointer;
         color: #785656;
+        position: absolute;
+        font-size: 40px;
+        top: 157%;
+        left: 7%;
     }
     #accessrec{
         background-color: #98BDD2;
@@ -631,6 +643,16 @@ footer{
         top: 190%;
         left: 78%;
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    #viewaccess:hover{
+        cursor: pointer;
+        color: #5d7b8d;
+        font-size: 40px;
+        position: absolute;
+        top: 189%;
+        left: 77%;
     }
 
     #bottom{
@@ -638,16 +660,18 @@ footer{
         top: 198%;
         font-family: "Jura";
         font-size: 20px;
-        left: 0%;
-        width: 97%;
+        left: 1%;
+        width: 95%;
+        padding: 0.6% 1.5%;
     }
     #bottom-wcag{
         position: absolute;
         top: 250%;
         font-family: "Jura";
         font-size: 20px;
-        left: 0%;
-        width: 97%;
+        left: 18%;
+        width: 77.5%;
+        padding: 0.6% 1.5%;
     }
     a{
         color: black;
@@ -679,14 +703,17 @@ footer{
         font-family: "Jura";
         color: #ffffff;
         display: block;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
     }
     .sidenav a:hover {
         color: #f1f1f1;
+        font-size: 28px;
     }
     #active {
         color: #ffffff;
         text-decoration: underline;
-        font-size: 30px;
+        font-size: 28px;
     }
     #main {
         padding: 20px;
@@ -833,9 +860,16 @@ footer{
         left: 23%;
         font-family: "Jura";
         background-color: #D2BE98;
+        box-shadow: 0 5px #746955;
+        transition: all 0.5s;
         padding: 1%;
         border-radius: 50px;
         cursor: pointer;
+    }
+    #clickhere:active{
+        background-color: #ac9b7c;
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
     }
     #clickhere:hover{
         background-color: #ac9b7c;
@@ -855,10 +889,16 @@ footer{
         font-size: 55px;
         font-family: "Jura";
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
     }
     #view:hover{
         color: #4b6458;
         cursor: pointer;
+        position: absolute;
+        top: 125%;
+        left: 77%;
+        font-size: 40px;
     }
     #wcagrec{
         background-color: #98D2B6;
@@ -892,10 +932,16 @@ footer{
         font-size: 55px;
         font-family: "Jura";
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
     }
     #viewsemantic:hover{
         cursor: pointer;
         color: #785656;
+        position: absolute;
+        top: 157.5%;
+        left: 7%;
+        font-size: 40px;
     }
     #accessrec{
         background-color: #98BDD2;
@@ -920,6 +966,17 @@ footer{
         top: 190.5%;
         left: 75%;
         text-decoration: underline;
+        transition: all 0.5s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    #viewaccess:hover{
+        cursor: pointer;
+        color: #5d7b8d;
+        font-size: 40px;
+        position: absolute;
+        top: 189%;
+        left: 77%;
     }
 
     #bottom{
@@ -927,16 +984,18 @@ footer{
         top: 205%;
         font-family: "Jura";
         font-size: 40px;
-        left: 0%;
-        width: 97%;
+        left: 1%;
+        width: 95%;
+        padding: 0.6% 1.5%;
     }
     #bottom-wcag{
         position: absolute;
         top: 220%;
         font-family: "Jura";
         font-size: 40px;
-        left: 0%;
-        width: 97%;
+        left: 14%;
+        width: 81.5%;
+        padding: 0.6% 1.5%;
     }
     a{
         color: black;
