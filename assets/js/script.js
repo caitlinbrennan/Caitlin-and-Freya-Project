@@ -12,7 +12,7 @@ function myFunction() {
         x.style.display = "block";
     }
 }
-
+console.log(screen.width);
 document.addEventListener("DOMContentLoaded", (event) => {
     $(document).ready(function(){
     $("#good-toggle").click(function(){
