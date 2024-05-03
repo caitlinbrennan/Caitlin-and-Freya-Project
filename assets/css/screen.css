@@ -411,7 +411,7 @@ footer{
         font-size: 25px;
         position: absolute;
         top: 39%;
-        left: 10%;
+        left: 6%;
         text-align: center;
         font-family: "Jura";
     }
@@ -419,25 +419,33 @@ footer{
         font-size: 25px;
         position: absolute;
         top: 60%;
-        left: 25%;
+        left: 15%;
         margin-right: 4%;
         text-align: center;
         font-family: "Jura";
         background-color: #D2BE98;
+        transition: all 0.5s;
+        box-shadow: 0 4px #746955;
         padding: 1%;
         border-radius: 50px;
         cursor: pointer;
+    }
+    #clickhere:active{
+        background-color: #ac9b7c;
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
     }
     #clickhere:hover{
         background-color: #ac9b7c;
     }
     #wcag{
         position: absolute;
-        top: 100%;
+        top: 102%;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
-        margin-right: 2%;
+        left: 6%;
+        margin-right: 5%;
     }
     #view{
         display: none;
@@ -462,10 +470,10 @@ footer{
     }
     #semantic{
         position: absolute;
-        top: 132.5%;
+        top: 133.5%;
         font-size: 35px;
         font-family: "Jura";
-        left: 11.7%;
+        left: 17%;
         text-align: center;
     }
     #viewsemantic{
@@ -485,25 +493,28 @@ footer{
         font-family: "Jura";
         position: absolute;
         top: 161%;
-        left: 17.5%;
+        left: 21%;
     }
     #viewaccess{
         display: none;
     }
     #bottom{
         position: absolute;
-        top: 185%;
+        top: 176%;
         font-family: "Jura";
         font-size: 18px;
-        left: 23%;
+        left: 3%;
+        width: 91%;
+        padding: 1% 1.5%;
     }
-    #bottomrec{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 5%;
+    #bottom-wcag{
         position: absolute;
-        top: 184%;
-        left: 0%;
+        top: 310%;
+        font-family: "Jura";
+        font-size: 15px;
+        left: 3%;
+        width: 91%;
+        padding: 1% 1.5%;
     }
     .code-snippet{
         font-size: smaller;
@@ -565,6 +576,163 @@ footer{
         color: white;
         cursor: pointer;
     }
+    #wcag-title{
+        font-family: "Jura";
+        font-size: 20px;
+        position: absolute;
+        top: 10.5%;
+        left: 5%;
+    }
+    #pour-title{
+        font-family: "Jura";
+        font-size: 17px;
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        text-decoration: underline;
+        font-weight: light;
+    }
+    #pour{
+        font-family: "Jura";
+        font-size: 17px;
+        position: absolute;
+        top: 24%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #perceive{
+        font-family: "Jura";
+        font-size: 15px;
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #perceive-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 48%;
+        left: 5%;
+        font-size: 12px;
+        margin-right: 5%;
+    }
+    mark{
+        background-color: #e3d5ba;
+    }
+    #operable{
+        font-family: "Jura";
+        font-size: 15px;
+        position: absolute;
+        top: 95%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #operable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 119%;
+        left: 5%;
+        font-size: 12px;
+        margin-right: 5%;
+    }
+    #understandable{
+        font-family: "Jura";
+        font-size: 15px;
+        position: absolute;
+        top: 163%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #understandable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 181%;
+        left: 5%;
+        font-size: 12px;
+        margin-right: 5%;
+    }
+    #robust{
+        font-family: "Jura";
+        font-size: 15px;
+        position: absolute;
+        top: 220%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #robust-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 238%;
+        left: 5%;
+        font-size: 12px;
+        margin-right: 5%;
+    }
+
+    #compliance-title{
+        font-family: "Jura";
+        font-size: 17px;
+        position: absolute;
+        top: 259%;
+        text-decoration: underline;
+        left: 5%;
+        font-weight: light;
+    }
+    #compliance{
+        font-family: "Jura";
+        font-size: 15px;
+        position: absolute;
+        top: 265%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #levels{
+        font-family: "Jura";
+        position: absolute;
+        top: 278%;
+        left: 5%;
+        font-size: 12px;
+        margin-right: 5%;
+    }
+
+    .topnav 
+    {
+        display: block;
+        background-color: #D2BE98;
+        position: relative;
+        right: 2%;
+        left: 2%;
+        width: 96.5%;
+        top: 1%;
+        text-align: center;
+    }
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    .topnav a 
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        font-family: "Jura";
+        cursor: pointer;
+    }
+    .topnav a.icon 
+    {
+        background: #D2BE98;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    .active {
+        text-decoration: underline;
+        background-color: #D2BE98;
+        color: white;
+    }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px){
     a{
@@ -575,7 +743,7 @@ footer{
         font-size: 40px;
         font-family: "Jura";
         position: absolute;
-        margin-left: 28%;
+        margin-left: 33%;
         top: 3%;
     }
     #sub_title{
@@ -583,7 +751,7 @@ footer{
         font-family: "Jura";
         position: absolute;
         top: 15%;
-        left: 1%;
+        margin-left: 1%;
         text-align: center;
         font-weight: lighter;
     }
@@ -591,7 +759,7 @@ footer{
         font-size: 30px;
         position: absolute;
         top: 55%;
-        left: 8%;
+        left: 16%;
         text-align: center;
         font-family: "Jura";
     }
@@ -599,14 +767,21 @@ footer{
         font-size: 35px;
         position: absolute;
         top: 70%;
-        left: 17%;
+        left: 23%;
         margin-right: 4%;
         text-align: center;
         font-family: "Jura";
         background-color: #D2BE98;
+        transition: all 0.5s;
+        box-shadow: 0 4px #746955;
         padding: 1%;
         border-radius: 50px;
         cursor: pointer;
+    }
+    #clickhere:active{
+        background-color: #ac9b7c;
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
     }
     #clickhere:hover{
         background-color: #ac9b7c;
@@ -674,10 +849,20 @@ footer{
         position: absolute;
         top: 185%;
         font-family: "Jura";
-        font-size: 18px;
-        left: 35%;
+        font-size: 20px;
+        left: 2%;
+        width: 93%;
+        padding: 0.6% 1.5%;
     }
-
+    #bottom-wcag{
+        position: absolute;
+        top: 246%;
+        font-family: "Jura";
+        font-size: 20px;
+        left: 2%;
+        width: 93%;
+        padding: 0.6% 1.5%;
+    }
 
     .code-snippet{
         font-size: small;
@@ -739,9 +924,120 @@ footer{
         color: white;
         cursor: pointer;
     }
+    #pour-title{
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 20%;
+        text-decoration: underline;
+        left: 5%;
+        font-weight: light;
+    }
+    #pour{
+        font-family: "Jura";
+        font-size: 20px;
+        position: absolute;
+        top: 28%;
+        left: 5%;
+    }
+    #perceive{
+        font-family: "Jura";
+        font-size: 18px;
+        position: absolute;
+        top: 34%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #perceive-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 40.5%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    mark{
+        background-color: #e3d5ba;
+    }
+    #operable{
+        font-family: "Jura";
+        font-size: 18px;
+        position: absolute;
+        top: 78%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #operable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 90.5%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #understandable{
+        font-family: "Jura";
+        font-size: 18px;
+        position: absolute;
+        top: 125%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #understandable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 135%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #robust{
+        font-family: "Jura";
+        font-size: 18px;
+        position: absolute;
+        top: 170%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #robust-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 180%;
+        left: 5%;
+        margin-right: 5%;
+    }
+
+    #compliance-title{
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 200%;
+        text-decoration: underline;
+        left: 5%;
+        font-weight: light;
+    }
+    #compliance{
+        font-family: "Jura";
+        font-size: 20px;
+        position: absolute;
+        top: 208%;
+        left: 5%;
+        margin-right: 5%;
+    }
+    #levels{
+        font-family: "Jura";
+        position: absolute;
+        top: 216%;
+        left: 5%;
+        margin-right: 5%;
+    } 
+    #wcag-title{
+        font-family: "Jura";
+        font-size: 35px;
+        position: absolute;
+        top: 10.5%;
+        left: 5%;
+    }
     
 }
-@media only screen and (min-width: 1008px) and (max-width: 1300px){
+@media only screen and (min-width: 1007.1px) and (max-width: 1300px){
     .topnav{
         display: none;
     }
@@ -750,34 +1046,34 @@ footer{
         text-decoration: none;
     }
     #webtitle{
-        font-size: 40px;
+        font-size: 45px;
         font-family: "Jura";
         position: absolute;
         margin-left: 37%;
         top: 3%;
     }
     #sub_title{
-        font-size: 60px;
+        font-size: 80px;
         font-family: "Jura";
         position: absolute;
         top: 15%;
-        left: 14%;
+        margin-left: 2%;
         text-align: center;
         font-weight: lighter;
     }
     #describe{
-        font-size: 30px;
+        font-size: 50px;
         position: absolute;
         top: 55%;
-        left: 28%;
+        left: 14%;
         text-align: center;
         font-family: "Jura";
     }
     #clickhere{
-        font-size: 35px;
+        font-size: 60px;
         position: absolute;
         top: 70%;
-        left: 33%;
+        left: 20.5%;
         text-align: center;
         font-family: "Jura";
         background-color: #D2BE98;
@@ -797,17 +1093,17 @@ footer{
     }
     #wcag{
         position: absolute;
-        top: 102.5%;
+        top: 104.5%;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
-        left: 15%;
+        left: 10%;
     }
     #view{
         position: absolute;
-        top: 104%;
-        left: 72%;
-        font-size: 30px;
+        top: 107%;
+        left: 71%;
+        font-size: 35px;
         font-family: "Jura";
         text-decoration: underline;
         transition: all 0.5s;
@@ -817,9 +1113,9 @@ footer{
         color: #4b6458;
         cursor: pointer;
         position: absolute;
-        top: 105%;
-        left: 71%;
-        font-size: 35px;
+        top: 106%;
+        left: 70%;
+        font-size: 40px;
     }
     #wcagrec{
         background-color: #98D2B6;
@@ -841,17 +1137,17 @@ footer{
     }
     #semantic{
         position: absolute;
-        top: 132.5%;
-        font-size: 35px;
+        top: 135.5%;
+        font-size: 40px;
         font-family: "Jura";
-        left: 60%;
+        left: 57%;
         text-align: center;
     }
     #viewsemantic{
         position: absolute;
-        top: 133%;
+        top: 136.5%;
         left: 13%;
-        font-size: 30px;
+        font-size: 35px;
         font-family: "Jura";
         text-decoration: underline;
         transition: all 0.5s;
@@ -861,8 +1157,8 @@ footer{
         cursor: pointer;
         color: #785656;
         position: absolute;
-        font-size: 35px;
-        top: 134%;
+        font-size: 40px;
+        top: 137.5%;
         left: 12%;
     }
     #accessrec{
@@ -875,18 +1171,18 @@ footer{
         border-radius: 40px;
     }
     #access{
-        font-size: 35px;
+        font-size: 40px;
         font-family: "Jura";
         position: absolute;
-        top: 160%;
+        top: 163%;
         left: 15%;
     }
     #viewaccess{
-        font-size: 30px;
+        font-size: 35px;
         font-family: "Jura";
         position: absolute;
-        top: 161%;
-        left: 72%;
+        top: 164%;
+        left: 71%;
         text-decoration: underline;
         transition: all 0.5s;
         transition-timing-function: ease-in-out;
@@ -894,18 +1190,27 @@ footer{
     #viewaccess:hover{
         cursor: pointer;
         color: #5d7b8d;
-        font-size: 35px;
+        font-size: 40px;
         position: absolute;
-        top: 162%;
-        left: 71%;
+        top: 165%;
+        left: 70%;
     }
     #bottom{
         position: absolute;
-        top: 170%;
+        top: 178%;
         font-family: "Jura";
-        font-size: 18px;
+        font-size: 25px;
         left: 2%;
         width: 93%;
+    }
+    #bottom-wcag{
+        position: absolute;
+        top: 0%;
+        font-family: "Jura";
+        font-size: 20px;
+        left: 18%;
+        width: 77.5%;
+        padding: 0.6% 1.5%;
     }
     #wcag-title{
         font-family: "Jura";
@@ -916,7 +1221,7 @@ footer{
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 150px; /* 0 width - change this with JavaScript */
+        width: 200px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
         top: 0; /* Stay at the top */
@@ -949,115 +1254,112 @@ footer{
         padding: 20px;
     }
     #pour-title{
-        padding: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 35px;
         position: absolute;
-        bottom: 25%;
+        top: 20%;
         text-decoration: underline;
-        left: 0%;
+        left:18.5%;
         font-weight: light;
     }
     #pour{
-        padding: 300px;
         font-family: "Jura";
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
-        bottom: 20%;
-        left: 0%;
+        top: 25%;
+        left: 18.5%;
     }
     #perceive{
-        padding-left: 300px;
         font-family: "Jura";
-        font-size: 18px;
+        font-size: 30px;
         position: absolute;
-        top: 38%;
-        left: 0%;
-        margin-right: 2%;
+        top: 34%;
+        left: 18.5%;
+        margin-right: 5%;
     }
     #perceive-ex{
         font-family: "Jura";
         position: absolute;
-        top: 47%;
-        left: 22%;
-        margin-right: 2%;
+        font-size: 23px;
+        top: 44.5%;
+        left: 18.5%;
+        margin-right: 5%;
     }
     mark{
         background-color: #e3d5ba;
     }
     #operable{
-        padding-left: 300px;
         font-family: "Jura";
-        font-size: 18px;
+        font-size: 30px;
         position: absolute;
         top: 85%;
-        left: 0%;
-        margin-right: 2%;
+        left: 18.5%;
+        margin-right: 5%;
     }
     #operable-ex{
         font-family: "Jura";
         position: absolute;
-        top: 97%;
-        left: 22%;
+        top: 104%;
+        left: 18.5%;
+        font-size: 23px;
         margin-right: 2%;
     }
     #understandable{
-        padding-left: 300px;
         font-family: "Jura";
-        font-size: 18px;
+        font-size: 30px;
         position: absolute;
-        top: 135%;
-        left: 0%;
-        margin-right: 2%;
+        top: 145%;
+        left: 18.5%;
+        margin-right: 5%;
     }
     #understandable-ex{
         font-family: "Jura";
         position: absolute;
-        top: 145%;
-        left: 22%;
-        margin-right: 2%;
+        top: 161.5%;
+        left: 18.5%;
+        font-size: 23px;
+        margin-right: 5%;
     }
     #robust{
-        padding-left: 300px;
         font-family: "Jura";
-        font-size: 18px;
+        font-size: 30px;
         position: absolute;
-        top: 180%;
-        left: 0%;
-        margin-right: 2%;
+        top: 195%;
+        left: 18.5%;
+        margin-right: 5%;
     }
     #robust-ex{
         font-family: "Jura";
         position: absolute;
-        top: 190%;
-        left: 22%;
-        margin-right: 2%;
+        top: 211.5%;
+        left: 18.5%;
+        font-size: 23px;
+        margin-right: 5%;
     }
 
     #compliance-title{
-        padding: 300px;
         font-family: "Jura";
-        font-size: 30px;
+        font-size: 35px;
         position: absolute;
-        top: 170%;
+        top: 235%;
         text-decoration: underline;
-        left: 0%;
+        left: 18.5%;
         font-weight: light;
     }
     #compliance{
-        padding: 300px;
         font-family: "Jura";
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
-        top: 178%;
-        left: 0%;
+        top: 240%;
+        left: 18.5%;
     }
     #levels{
         font-family: "Jura";
         position: absolute;
-        top: 230%;
-        left: 22%;
-        margin-right: 2%;
+        top: 250%;
+        left: 18.5%;
+        font-size: 23px;
+        margin-right: 5%;
     } 
 
     .content-text{
