@@ -91,7 +91,6 @@ footer{
     font-family: bold "Jura";
 }
 
-
 @media only screen and (min-width: 200px) and (max-width: 400px){
     a{
         color: black;
@@ -497,6 +496,23 @@ footer{
         top: 184%;
         left: 0%;
     }
+    .code-snippet{
+        font-size: smaller;
+    }
+    .content-text{
+        font-size: medium;
+        margin-left: 0px;
+        position: absolute;
+    }
+    .content2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .content3{
+        grid-column: 1;
+        grid-row: 3;
+    }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px){
     a{
@@ -625,6 +641,15 @@ footer{
     .content-text{
         margin-left: 0px;
         position: absolute;
+    }
+    .content2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .content3{
+        grid-column: 1;
+        grid-row: 3;
     }
 }
 @media only screen and (min-width: 1008px) and (max-width: 1300px){
