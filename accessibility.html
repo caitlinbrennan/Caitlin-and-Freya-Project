@@ -14,12 +14,6 @@
         <header><a id="webtitle" href="index.html">Web Education</a></header>
         
         <div class="sidenav">
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input class="search" type="text" placeholder="Search.." name="search">
-                    <button class="button" type="submit"><i class="fa fa-search"><img src="assets/imgs/search-icon.png" alt="magnifying glass image"></i></button>
-                </form>
-            </div>
             <a href="wcag.html">Web Content Accessibility Guidelines</a>
             <a href="semantic.html">Semantic HTML</a>
             <a href="accessibility.html">Accessibility</a>
@@ -48,7 +42,15 @@
             <div class="content-item content1 code-snippet">
             <pre>
             <code>
-            
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt;Image Labeling&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;img src="image-link.jpg" alt="image desription"&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
             </code>
             </pre>
             </div>
@@ -57,36 +59,150 @@
         </div>
         <div class="content-container">
             <div class="content-item content0"><h3>Keyboard Accessibility</h3></div>
-            <div class="content-item content1 code-snippet">
-            <pre>
-            <code>
-            
-            </code>
-            </pre>
+            <div class="content-item content2"><p>Make sure that all interactive elements on your site, such as links, buttons, and form controls, are fully accessible via keyboard navigation. Test your site using only the keyboard to ensure that users can navigate through all interactive elements in a logical order.</p>
+            <p>Ensure that keyboard focus is visible and moves logically through interactive elements.
+                Use the tabindex attribute to specify the order in which elements receive focus, if necessary.
+                Provide a visual indication of which element has keyboard focus using CSS.</p>
+            <p>Ensure that users can navigate through interactive elements using the Tab key.
+                Use the Arrow keys, Enter, and Spacebar to interact with elements where applicable (e.g., dropdown menus, sliders).
+                Provide keyboard shortcuts for frequently used actions, but ensure they don't conflict with browser or assistive technology shortcuts.</p>
+            <p>Ensure all form controls (input fields, checkboxes, radio buttons, etc.) are accessible via keyboard.
+                Use proper <label> elements associated with form controls using the for attribute to improve usability for screen reader users.</p>
+            <p> Ensure that links and buttons have distinct visual styles, making it clear when they are focused or hovered over using the keyboard.</p>
             </div>
-            <div class="content-item content2"><p>Make sure that all interactive elements on your site, such as links, buttons, and form controls, are fully accessible via keyboard navigation. Test your site using only the keyboard to ensure that users can navigate through all interactive elements in a logical order.</p></div>
         </div>
         <div class="content-container">
             <div class="content-item content0"><h3>Multimedia</h3></div>
             <div class="content-item content1 code-snippet">
             <pre>
             <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Accessible Video Example&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;h1&gt;Accessible Video Example&lt;/h1&gt;
+        
+            &lt;!-- Video with captions and transcript --&gt;
+            &lt;video controls&gt;
+            &lt;!-- Video source --&gt;
+            &lt;source src="example_video.mp4" type="video/mp4"&gt;
             
+            &lt;!-- Captions track for users who are deaf or hard of hearing --&gt;
+            &lt;track kind="captions" src="captions_en.vtt" srclang="en" label="English Captions" default&gt;
+                        
+            &lt;!-- Transcript link for users who need text-based content --&gt;
+            &lt;a href="transcript.txt"&gt;Transcript&lt;/a&gt;
+            Your browser does not support the video tag.
+            &lt;/video&gt;
+                
+            &lt;!-- Transcript content (hidden by default, shown on demand) --&gt;
+            &lt;div id="transcript" style="display: none;"&gt;
+            &lt;h2&gt;Transcript&lt;/h2&gt;
+            &lt;p&gt;This is the transcript of the video content...&lt;/p&gt;
+            &lt;/div&gt;
+                
+            &lt;!-- Button to toggle transcript visibility --&gt;
+            &lt;button id="showTranscript"&gt;Show Transcript&lt;/button&gt;
+                
+            &lt;script&gt;
+            // JavaScript to toggle transcript visibility
+            document.getElementById('showTranscript').addEventListener('click', function() {
+            var transcriptDiv = document.getElementById('transcript');
+            if (transcriptDiv.style.display === 'none') {
+            transcriptDiv.style.display = 'block';
+            } else {
+            transcriptDiv.style.display = 'none';
+            }
+            });
+            &lt;/script&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
             </code>
             </pre>
             </div>
-            <div class="content-item content2"><p>Provide captions, transcripts, or audio descriptions for multimedia content such as videos and audio files. This ensures that users who are deaf, hard of hearing, or visually impaired can access the content.</p></div>
-        </div>
+            <div class="content-item content2"><p>Provide captions, transcripts, or audio descriptions for multimedia content such as videos and audio files. This ensures that users who are deaf, hard of hearing, or visually impaired can access the content.</p>
+            <p>The &lt;video&gt; element includes a source for the video file (example_video.mp4).
+                Captions are provided using the &lt;track&gt; element with the kind="captions" attribute. The captions file (captions_en.vtt) contains text synchronized with the video.
+                A link to the transcript file (transcript.txt) is provided for users who prefer or require text-based content.
+                JavaScript is used to toggle the visibility of the transcript content when the "Show Transcript" button is clicked.</p></div>
+            </div>
         <div class="content-container">
             <div class="content-item content0"><h3>Aria Landmark</h3></div>
             <div class="content-item content1 code-snippet">
             <pre>
             <code>
-            
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;ARIA Landmarks Example&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;!-- ARIA landmark for the header --&gt;
+            &lt;header role="banner"&gt;
+            &lt;h1&gt;Website Header&lt;/h1&gt;
+            &lt;!-- Navigation menu --&gt;
+            &lt;nav role="navigation"&gt;
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/nav&gt;
+            &lt;/header&gt;
+                
+            &lt;!-- ARIA landmark for the main content --&gt;
+            &lt;main role="main"&gt;
+            &lt;section id="home"&gt;
+            &lt;h2&gt;Home&lt;/h2&gt;
+            &lt;p&gt;Welcome to our website!&lt;/p&gt;
+            &lt;/section&gt;
+                
+            &lt;section id="about"&gt;
+            &lt;h2&gt;About Us&lt;/h2&gt;
+            &lt;p&gt;Learn more about our company.&lt;/p&gt;
+            &lt;/section&gt;
+                
+            &lt;section id="services"&gt;
+            &lt;h2&gt;Our Services&lt;/h2&gt;
+            &lt;p&gt;Explore the services we offer.&lt;/p&gt;
+            &lt;/section&gt;
+                
+            &lt;section id="contact"&gt;
+            &lt;h2&gt;Contact Us&lt;/h2&gt;
+            &lt;!-- Contact form --&gt;
+            &lt;form role="form" action="#" method="post"&gt;
+            &lt;label for="name"&gt;Name:&lt;/label&gt;
+            &lt;input type="text" id="name" name="name" required&gt;&lt;br&gt;&lt;br&gt;
+            &lt;label for="email"&gt;Email:&lt;/label&gt;
+            &lt;input type="email" id="email" name="email" required&gt;&lt;br&gt;&lt;br&gt;
+            &lt;label for="message"&gt;Message:&lt;/label&gt;&lt;br&gt;
+            &lt;textarea id="message" name="message" rows="4" cols="50" required&gt;
+            &lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+            &lt;button type="submit"&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+            &lt;/section&gt;
+            &lt;/main&gt;
+                
+            &lt;!-- ARIA landmark for the footer --&gt;
+            &lt;footer role="contentinfo"&gt;
+            &lt;p&gt;&amp;copy; 2024 Company Name. All rights reserved.&lt;/p&gt;
+            &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
             </code>
             </pre>
             </div>
-            <div class="content-item content2"><p>Use ARIA (Accessible Rich Internet Applications) landmarks and roles to enhance the accessibility of your site's structure and functionality. ARIA landmarks such as role="navigation", role="main", role="search", etc., help screen readers and other assistive technologies navigate your site more efficiently.</p></div>
+            <div class="content-item content2"><p>Use ARIA (Accessible Rich Internet Applications) landmarks and roles to enhance the accessibility of your site's structure and functionality. ARIA landmarks such as role="navigation", role="main", role="search", etc., help screen readers and other assistive technologies navigate your site more efficiently.</p>
+            <p>The &lt;header&gt;, &lt;main&gt;, and &lt;footer&gt; elements are assigned ARIA roles using role="banner", role="main", and role="contentinfo", respectively. These roles indicate the purpose of these sections to assistive technologies.
+                The navigation menu inside the header is given the role="navigation" attribute to identify it as a navigation landmark.
+                The contact form inside the main content area is assigned the role="form" attribute to identify it as a form landmark.</p></div>
         </div>
 
 
