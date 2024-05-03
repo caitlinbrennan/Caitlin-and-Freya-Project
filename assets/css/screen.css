@@ -488,6 +488,15 @@ footer{
         top: 184%;
         left: 0%;
     }
+
+    .code-snippet{
+        font-size: small;
+        width: 120%;
+    }
+    .content-text{
+        margin-left: 0px;
+        position: absolute;
+    }
 }
 @media only screen and (min-width: 1008px) and (max-width: 1300px){
     #webtitle{
@@ -504,6 +513,10 @@ footer{
         top: 15%;
         text-align: center;
         font-weight: lighter;
+    }
+    .content-text{
+        margin-left: 0px;
+        position: absolute;
     }
 }
 @media only screen and (min-width: 1301px) and (max-width: 1900px){
@@ -828,7 +841,8 @@ footer{
         top: 230%;
         left: 22%;
         margin-right: 2%;
-    }
+    } 
+    
 }
 @media only screen and (min-width: 1901px){
     #webtitle{
