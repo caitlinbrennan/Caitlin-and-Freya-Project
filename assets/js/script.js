@@ -1,5 +1,5 @@
 function scrollDown(){
-    window.scrollTo(0, document.body.scrollHeight + 2000);
+    window.scrollTo({top: document.body.scrollHeight + 2000, behavior: "smooth"});
 }
 
 function myFunction() {
