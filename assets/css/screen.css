@@ -6,14 +6,14 @@
 body{
     background-color: white;
 }
-/*footer{
+footer{
     text-align: center;
     font-family: "Jura";
     font-size: 20px;
-    background-color: #D2BE98;      was moving header with it??
+    background-color: #D2BE98;
     margin-top: 100px;
     padding: 0.7% 1.5%;
-}*/
+}
 
 .code-snippet{
     background-color: #D2BE98;
@@ -93,25 +93,6 @@ body{
 
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
-    img{
-        display: none;
-        /*width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 17%;
-        top: 12%;*/
-    }
-    .button-home{
-        /*position: absolute;
-        height: 30px;
-        width: 30px;
-        left: 5%;
-        cursor: pointer;*/
-        display: none;
-    }
-    .search-home{
-        display: none;
-    }
     a{
         color: black;
         text-decoration: none;
@@ -270,23 +251,6 @@ body{
     }
 }
 @media only screen and (min-width: 401px) and (max-width: 640px){
-    img{
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 17%;
-        top: 12%;
-    }
-    .button-home{
-        position: absolute;
-        height: 30px;
-        width: 30px;
-        left: 5%;
-        cursor: pointer;
-    }
-    .search-home{
-        display: none;
-    }
     a{
         color: black;
         text-decoration: none;
@@ -406,24 +370,6 @@ body{
     }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px){
-    img{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        left: 15%;
-        top: 15%;
-    }
-    .button-home{
-        position: absolute;
-        height: 60px;
-        width: 60px;
-        left: 5%;
-        top: 3%;
-        cursor: pointer;
-    }
-    .search-home{
-        display: none;
-    }
     a{
         color: black;
         text-decoration: none;
@@ -561,56 +507,6 @@ body{
     }
 }
 @media only screen and (min-width: 1301px) and (max-width: 1900px){
-    .search-container-home {
-        display: none;
-        /*border: none;
-        position: absolute;
-        left: 1%;
-        top: 3%;*/
-    }
-    .search-home{
-        display: none;
-        /*font-size: 25px;
-        font-family: "Jura";*/
-    }
-    .search{
-        display: none;
-        /*font-size: 20px;
-        font-family: "Jura";
-        width: 70%;*/
-    }
-    img{
-        display: none;
-        /*width: 35%;
-        height: 60%;
-        position: absolute;
-        left: 30%;
-        top: 20%;*/
-    }
-    .button{
-        display: none;
-        /*position: absolute;
-        height: 100%;
-        width: 20%;
-        left: 75%;
-        cursor: pointer;*/
-    }
-    .button-home{
-        display: none;
-        /*position: absolute;
-        height: 100%;
-        width: 20%;
-        left: 102%;
-        cursor: pointer;*/
-    }
-    .search-container{
-        display: none;
-        /*order: none;
-        position: absolute;
-        left: 5%;
-        font-size: 17px;*/
-    }
-    
     #webtitle{
         font-size: 50px;
         font-family: "Jura";
@@ -732,18 +628,19 @@ body{
 
     #bottom{
         position: absolute;
-        top: 215%;
+        top: 198%;
         font-family: "Jura";
         font-size: 20px;
-        left: 42%;
-    }
-    #bottomrec{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 7%;
-        position: absolute;
-        top: 213%;
         left: 0%;
+        width: 97%;
+    }
+    #bottom-wcag{
+        position: absolute;
+        top: 250%;
+        font-family: "Jura";
+        font-size: 20px;
+        left: 0%;
+        width: 97%;
     }
     a{
         color: black;
@@ -891,76 +788,20 @@ body{
         top: 178%;
         left: 0%;
     }
-    #level-a{
+    #levels{
         font-family: "Jura";
         position: absolute;
         top: 230%;
         left: 22%;
         margin-right: 2%;
     }
-    #level-aa{
-        font-family: "Jura";
-        position: absolute;
-        top: 237%;
-        left: 22%;
-        margin-right: 2%;
-    }
-    #level-aaa{
-        font-family: "Jura";
-        position: absolute;
-        top: 244%;
-        left: 22%;
-        margin-right: 2%;
-    }
 }
 @media only screen and (min-width: 1901px){
-    .search-container-home {
-        border: none;
-        position: absolute;
-        left: 1%;
-        top: 2%;
-    }
-    .search-home{
-        font-size: 30px;
-        font-family: "Jura";
-    }
-    .search{
-        font-size: 20px;
-        font-family: "Jura";
-        width: 70%;
-    }
-    img{
-        width: 35%;
-        height: 60%;
-        position: absolute;
-        left: 30%;
-        top: 20%;
-    }
-    .button{
-        position: absolute;
-        height: 100%;
-        width: 20%;
-        left: 75%;
-        cursor: pointer;
-    }
-    .button-home{
-        position: absolute;
-        height: 100%;
-        width: 20%;
-        left: 102%;
-        cursor: pointer;
-    }
-    .search-container{
-        border: none;
-        position: absolute;
-        left: 5%;
-        font-size: 17px;
-    }
     #webtitle{
         font-size: 65px;
         font-family: "Jura";
         position: absolute;
-        left: 40%;
+        left: 38%;
     }
     #sub_title{
         font-size: 130px;
@@ -1076,18 +917,19 @@ body{
 
     #bottom{
         position: absolute;
-        top: 214.7%;
+        top: 205%;
         font-family: "Jura";
         font-size: 40px;
-        left: 40%;
-    }
-    #bottomrec{
-        background-color: #D2BE98;
-        width: 100%;
-        height: 5.5%;
-        position: absolute;
-        top: 214%;
         left: 0%;
+        width: 97%;
+    }
+    #bottom-wcag{
+        position: absolute;
+        top: 220%;
+        font-family: "Jura";
+        font-size: 40px;
+        left: 0%;
+        width: 97%;
     }
     a{
         color: black;
@@ -1095,12 +937,11 @@ body{
     }
     #wcag-title{
         font-family: "Jura";
-        font-size: 70px;
+        font-size: 55px;
         position: absolute;
-        top: 15%;
-        left: 22%;
+        top: 10.5%;
+        left: 15.3%;
     }
-
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 250px; /* 0 width - change this with JavaScript */
@@ -1114,8 +955,7 @@ body{
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
     .sidenav a {
-        padding: 80px 8px 8px 32px;
-        margin-top: 50%;
+        padding: 100px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
         font-family: "Jura";
@@ -1133,30 +973,120 @@ body{
     #main {
         padding: 20px;
     }
+    #pour-title{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        bottom: 46%;
+        text-decoration: underline;
+        left: 0%;
+        font-weight: light;
+    }
     #pour{
         padding: 300px;
         font-family: "Jura";
-        font-size: 50px;
+        font-size: 30px;
         position: absolute;
-        left: 3%;
+        bottom: 42%;
+        left: 0%;
     }
     #perceive{
         padding-left: 300px;
         font-family: "Jura";
-        font-size: 40px;
+        font-size: 24px;
         position: absolute;
-        top: 45%;
-        left: 3%;
+        top: 33%;
+        left: 0%;
+        margin-right: 2%;
     }
     #perceive-ex{
         font-family: "Jura";
-        font-size: 35px;
         position: absolute;
-        top: 57%;
-        left: 22%;
-        padding-right: 6%;
+        top: 41%;
+        left: 18%;
+        font-size: 22px;
+        margin-right: 2%;
     }
     mark{
         background-color: #e3d5ba;
+    }
+    #operable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 24px;
+        position: absolute;
+        top: 69%;
+        left: 0%;
+        margin-right: 2%;
+    }
+    #operable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 80%;
+        left: 18%;
+        font-size: 22px;
+        margin-right: 2%;
+    }
+    #understandable{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 24px;
+        position: absolute;
+        top: 110%;
+        left: 0%;
+        margin-right: 2%;
+    }
+    #understandable-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 119%;
+        left: 18%;
+        font-size: 22px;
+        margin-right: 2%;
+    }
+    #robust{
+        padding-left: 300px;
+        font-family: "Jura";
+        font-size: 24px;
+        position: absolute;
+        top: 148%;
+        left: 0%;
+        margin-right: 2%;
+    }
+    #robust-ex{
+        font-family: "Jura";
+        position: absolute;
+        top: 157%;
+        left: 18%;
+        font-size: 22px;
+        margin-right: 2%;
+    }
+
+    #compliance-title{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 40px;
+        position: absolute;
+        top: 152%;
+        text-decoration: underline;
+        left: 0%;
+        font-weight: light;
+    }
+    #compliance{
+        padding: 300px;
+        font-family: "Jura";
+        font-size: 30px;
+        position: absolute;
+        top: 159%;
+        left: 0%;
+    }
+    #levels{
+        font-family: "Jura";
+        position: absolute;
+        top: 193%;
+        left: 18%;
+        font-size: 22px;
+        margin-right: 2%;
     }
 }
